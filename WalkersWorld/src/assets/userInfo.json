@@ -1,0 +1,17 @@
+{
+    "users" :[
+        {
+            "id":1,
+            "username":"alanwalker",
+            "password":"alanwalker"
+        },{
+            "id":2,
+            "username":"admin",
+            "password":"admin"
+        },{
+            "id":3,
+            "username":"shubham",
+            "password":"shubham"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+<p>login works!</p>
+<div class="backround">
+<section class="WikiaPageBackground">
+    <!-- interpolation -->
+    <h1>{{welcomeMsg}}</h1>
+    <div style="background: grey; top: -50px">
+        <h2 style="background: grey; color: black; left: 0px;">Login : </h2>
+        <span>
+        <input id="username" type="text" #username placeholder="  Username"/>
+        <input id="password" type="password" #password placeholder="  Password"/>
+    </span>
+        <input type="button" value="Login" (click)="login(username.value, password.value)"/>
+    </div>
+</section>
+</div>
